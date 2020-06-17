@@ -1,0 +1,21 @@
+id: synthea.fhir
+canonical: http://synthetichealth.github.io/synthea
+name: Synthea
+status: active
+version: 1.0.0
+fhirVersion: 4.0.1
+copyrightYear: 2020+
+releaseLabel: Build CI
+publisher:
+  name: The MITRE Corporation
+  url: http://synthea.mitre.org
+template: fhir.base.template#0.1.0
+
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+
+parameters:
+  apply-contact: true
+  apply-jurisdiction: false
+  apply-publisher: true
